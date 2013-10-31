@@ -1,0 +1,38 @@
+<div class="audio-slideshow" data-audio="audio/song.mp3" data-audio-duration="30">
+    <div class="audio-slides">
+        <img src="images/data-center-1.jpg" data-thumbnail="images/data-center-1.jpg" data-slide-time="0">
+        <img src="images/data-center-2.jpg" data-thumbnail="images/data-center-2.jpg" data-slide-time="5">
+        <img src="images/data-center-3.jpg" data-thumbnail="images/data-center-3.jpg" data-slide-time="10">
+        <img src="images/data-center-4.jpg" data-thumbnail="images/data-center-4.jpg" data-slide-time="15">
+    </div>
+    <div class="audio-control-interface">
+        <div class="play-pause-container">
+            <a href="javascript:;" class="audio-play" tabindex="1">Play</a>
+            <a href="javascript:;" class="audio-pause" tabindex="1">Pause</a>
+        </div>
+        <div class="time-container">
+            <span class="play-time"></span> / <span class="total-time"></span>
+        </div>
+ 
+        <div class="timeline">
+            <div class="timeline-controls"></div>
+            <div class="playhead"></div>
+        </div>
+ 
+        <div class="jplayer"></div>
+    </div>
+</div>
+
+
+
+
+
+        <script>
+            $(document).ready(function() {
+                $('.audio-slideshow').audioSlideshow();
+            });
+        </script>
+
+
+
+

@@ -50,7 +50,7 @@
 				if(index > 0){
 					slideTimes.push(second);
 				
-					var img = '<span><img src="' + thumbnail + '"></span>',
+					var img = '<div><a href=""></div>',
 						$marker = $('<a href="javascript:;" class="marker" data-time="' + second + '">' + img + '</a>'),
 						l = (second / audioDurationinSeconds) * $that.width();
 		  
